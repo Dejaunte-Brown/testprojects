@@ -1,0 +1,540 @@
+Titles,Description,Discovered,Patched
+"
+
+			Path traversal in Ivanti Cloud Service Appliance			
+CVE-2024-8963
+
+","
+Path traversal
+The vulnerability allows a remote attacker to perform directory traversal attacks.The vulnerability exists due to input validation error when processing directory traversal sequences. A remote non-authenticated attacker can send a specially crafted HTTP request and read arbitrary files on the system.The vulnerability can be exploited along with #VU97119 (CVE-2024-8190) to achieve remote code execution and is being exploited in the wild.  ",2024-09-19,2024-09-19
+"
+
+			Multiple vulnerabilities in Adobe Acrobat and Reader			
+CVE-2024-41869
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a use-after-free error when handling PDF files. A remote attacker can trick the victim into opening a specially crafted PDF file, trigger a use-after-free error and execute arbitrary code on the system.Successful exploitation of the vulnerability may allow an attacker to compromise vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-09-10,2024-09-10
+"
+
+			Spoofing attack in Microsoft Windows MSHTML Platform and Internet Explorer			
+CVE-2024-43461
+
+","
+Spoofing attack
+The vulnerability allows a remote attacker to perform spoofing attack.The vulnerability exists due to the way the Internet Explorer displays a user prompt after a file is downloaded. A remote attacker can create a specially crafted filename that causes the true file extension to be hidden, trick the victim into downloading it and potentially compromise the affected system.Note, the vulnerability is being actively exploited in the wild. ",2024-09-10,2024-09-10
+"
+
+			Remote code execution in Microsoft Publisher			
+CVE-2024-38226
+
+","
+Protection Mechanism Failure
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to insufficient implementation of security measures. An attacker can trick the victim into opening a specially crafted file, bypass Office macro policies restrictions and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2024-09-10,2024-09-10
+"
+
+			Security features bypass in Microsoft Windows Mark of the Web			
+CVE-2024-38217
+
+","
+Protection Mechanism Failure
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to insufficient implementation of security measures. An attacker can trick the victim into downloading a specially crafted file, evade Mark of the Web (MOTW) defenses and bypass security features such as SmartScreen 
+Application Reputation security check and/or the legacy Windows 
+Attachment Services security prompt.Note, the vulnerability is being actively exploited in the wild.  ",2024-09-10,2024-09-10
+"
+
+			Privilege escalation in Microsoft Windows Installer			
+CVE-2024-38014
+
+","
+Improper privilege management
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to improper privilege management in Windows Installer. A local user can execute arbitrary code with SYSTEM privileges.Note, the vulnerability is being actively exploited in the wild. ",2024-09-10,2024-09-10
+"
+
+			Remote code execution in Microsoft Windows Update			
+CVE-2024-43491
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a use-after-free error in Microsoft Windows Update services. A remote attacker can send specially crafted traffic to the system, trigger a use-after-free error and execute arbitrary code. Successful exploitation of the vulnerability may allow an attacker to compromise vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-09-10,2024-09-10
+"
+
+			Remote code execution in Kingsoft WPS Office			
+CVE-2024-7263
+
+","
+Input validation error
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to insufficient path validation in 
+promecefpluginhost.exe. A remote attacker can trick the victim into 
+opening a specially crafted spreadsheet document and execute arbitrary 
+code on the system.Note, the vulnerability is being actively exploited in the wild. 		",2024-08-28,2024-08-28
+"
+
+			Remote code execution in Kingsoft WPS Office			
+CVE-2024-7262
+
+","
+Input validation error
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to insufficient path validation in promecefpluginhost.exe. A remote attacker can trick the victim into opening a specially crafted spreadsheet document and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.  ",2024-08-28,2024-08-28
+"
+
+			Arbitrary file upload in Versa Networks Director			
+CVE-2024-39717
+
+","
+Arbitrary file upload
+The vulnerability allows a remote user to compromise vulnerable system.The vulnerability exists due to insufficient validation of file during file upload. A remote authenticated user can upload a malicious file and execute it on the server.Note, the vulnerability is being actively exploited in the wild. ",2024-08-24,2024-08-24
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2024-7965
+
+","
+Improperly implemented security check for standard
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to incorrect implementation in V8 in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it and compromise the system.Note, the vulnerability is being actively exploited in the wild. ",2024-08-22,2024-08-22
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2024-7971
+
+","
+Type Confusion
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to a type confusion error within the V8 engine. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger a type confusion error and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-08-22,2024-08-22
+"
+
+			Remote code execution in Microsoft Project			
+CVE-2024-38189
+
+","
+Input validation error
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to insufficient validation of user-supplied input. A remote attacker can trick the victim into opening a specially crafted file and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2024-08-13,2024-08-13
+"
+
+			Privilege escalation in Microsoft Windows Power Dependency Coordinator			
+CVE-2024-38107
+
+","
+Use-after-free
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a use-after-free error within Windows Power Dependency Coordinator. A local user can trigger a use-after-free error and execute arbitrary code with SYSTEM privileges.Note, the vulnerability is being actively exploited in the wild.  ",2024-08-13,2024-08-13
+"
+
+			Security features bypass in Microsoft Windows			
+CVE-2024-38213
+
+","
+Protection mechanism failure
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to insufficient implementation of security measures. An attacker can bypass Windows Mark of the Web security feature.Note, the vulnerability is being actively exploited in the wild.  ",2024-08-13,2024-08-13
+"
+
+			Privilege escalation in Microsoft Windows Ancillary Function Driver for WinSock			
+CVE-2024-38193
+
+","
+Use-after-free
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a use-after-free error within the ancillary function driver for WinSock. A local user can trigger a use-after-free error and execute arbitrary code with elevated privileges.Note, the vulnerability is being actively exploited in the wild.  ",2024-08-13,2024-08-13
+"
+
+			Privilege escalation in Microsoft Windows kernel			
+CVE-2024-38106
+
+","
+Race condition
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a race condition within the Windows kernel. A local user can exploit the race and execute arbitrary code with SYSTEM privileges.  ",2024-08-13,2024-08-13
+"
+
+			Memory corruption in Microsoft Windows Scripting Engine			
+CVE-2024-38178
+
+","
+Buffer overflow
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to a boundary error when processing HTML content. A remote attacker can trick the victim to open a specially crafted webpage in Microsoft Edge in Internet Explorer mode, trigger memory corruption and execute arbitrary code on the target system.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.Note, the vulnerability is being actively exploited in the wild.  ",2024-08-13,2024-08-13
+"
+
+			Multiple vulnerabilities in Google Android			
+CVE-2024-36971
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to execute arbitrary code on the system.The vulnerability exists due to a use-after-free error within the xfrm_link_failure() function in net/xfrm/xfrm_policy.c, within the dst_entry	ip6_dst_check() and ip6_dst_check() functions in net/ipv6/route.c, within the dst_entry	ipv4_dst_check() and ip_do_redirect() functions in net/ipv4/route.c. A remote attacker can send specially crafted packets to the system and execute arbitrary code. Note, the vulnerability is being actively exploited in the wild. ",2024-08-05,2024-08-05
+"
+
+			Privilege escalation in Microsoft Windows Hyper-V			
+CVE-2024-38080
+
+","
+Integer overflow
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to integer overflow in Windows Hyper-V component. A local user can trigger an integer overflow and execute arbitrary code with SYSTEM privileges.Note, the vulnerability is being actively exploited in the wild. ",2024-07-09,2024-07-09
+"
+
+			Spoofing attack in Windows MSHTML Platform			
+CVE-2024-38112
+
+","
+Exposure of resource to wrong sphere
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to improper input validation. A remote attacker can perform spoofing attack and trick the victim to execute a specially crafted file.Note, the vulnerability is being actively exploited in the wild. ",2024-07-09,2024-07-09
+"
+
+			Privilege escalation in Cisco NX-OS Software			
+CVE-2024-20399
+
+","
+OS Command Injection
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to improper input validation. A local user can execute arbitrary commands as root on the underlying operating system of an affected device.Note, the vulnerability is being actively exploited in the wild since of April 2024.  ",2024-07-01,2024-06-11
+"
+
+			Multiple vulnerabilities in Google Pixel			
+CVE-2024-32896
+
+","
+Improper input validation
+The vulnerability allows a local application to execute arbitrary code.
+The vulnerability exists due to improper input validation within the Pixel Firmwire subcomponent in Pixel. A local application can execute arbitrary code.Note, the vulnerability is being actively exploited in the wild.  ",2024-06-11,2024-06-07
+"
+
+			Privilege escalation in Arm Mali GPU kernel drivers			
+CVE-2024-4610
+
+","
+Use-after-free
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a use-after-free error caused by improper GPU memory processing operations. A local user can execute arbitrary code with elevated privileges. Note, the vulnerability is being actively exploited in the wild. ",2024-06-07,2024-05-28
+"
+
+			Information disclosure in Check Point Quantum Gateway			
+CVE-2024-24919
+
+","
+Path traversal
+The vulnerability allows a remote attacker to gain access to potentially sensitive information.The
+ vulnerability exists due to a insufficient validation of file path in Security Gateways 
+with IPSec VPN, Remote Access VPN and the Mobile Access software blade. A
+ remote non-authenticated attacker can send a specially crafted HTTP request and view arbitrary files on the system.Note, the vulnerability is being actively exploited in the wild. ",2024-05-24,2024-05-24
+"
+
+			Backdoor in Justice AV Solutions Viewer software			
+CVE-2024-4978
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the application.The vulnerability exists due to presence of embedded malicious functionality in the application setup file ""Justice AV Solutions Viewer Setup 8.3.7.250-1"" downloaded from the official website. A remote attacker to gain unauthorized access to the system.Note, the vulnerability is being actively exploited in the wild.  ",2024-05-24,2024-05-24
+"
+
+			Remote code execution in Google Chrome			
+CVE-2024-5274
+
+","
+Type Confusion
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to a type confusion error within the V8 engine in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger a type confusion error and execute arbitrary code on the target system.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.Note, the vulnerability is being actively exploited in the wild.  ",2024-05-24,2024-05-16
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2024-4947
+
+","
+Type Confusion
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to a type confusion error within the V8 component in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger a type confusion error and execute arbitrary code on the target system.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-05-16,2024-05-14
+"
+
+			Remote code execution in Microsoft Windows MSHTML platform			
+CVE-2024-30040
+
+","
+Security features bypass
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to improper input validation within the Windows MSHTML Platform. A remote attacker can trick the victim to open or load a specially crafted file, bypass OLE mitigations in Microsoft 365 and Microsoft Office and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.  ",2024-05-14,2024-05-14
+"
+
+			Privilege escalation in Microsoft Windows DWM Core Library			
+CVE-2024-30051
+
+","
+Heap-based buffer overflow
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a boundary error within the Windows DWM Core Library. A local user can trigger a heap-based buffer overflow and execute arbitrary code with SYSTEM privileges.Note, the vulnerability is being actively exploited in the wild.  ",2024-05-14,2024-05-14
+"
+
+			Remote code execution in Google Chrome			
+CVE-2024-4761
+
+","
+Out-of-bounds write
+The vulnerability allows a remote attacker to compromise vulnerable system.
+The vulnerability exists due to a boundary error when processing untrusted HTML content in V8. A remote attacker can create a specially crafted web page, trick the victim into opening it, trigger out-of-bounds write and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-05-14,2024-05-10
+"
+
+			Remote code execution in Google Chrome			
+CVE-2024-4671
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a use-after-free error within the Visuals component in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger use-after-free error and execute arbitrary code on the target system.Successful exploitation of the vulnerability may allow an attacker to compromise vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-05-10,2024-04-24
+"
+
+			Code execution in Cisco Adaptive Security Appliance and Firepower Threat Defense			
+CVE-2024-20359
+
+","
+Code Injection
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to improper input validation in a legacy capability that allowed for the preloading of VPN clients and plug-ins. A local user can copy a crafted file to the disk0: file system of an affected device and execute arbitrary code with root privileges. Note, the vulnerability is being actively exploited in the wild. ",2024-04-24,2024-04-24
+"
+
+			Denial of service in Cisco Adaptive Security Appliance and Firepower Threat Defense Software Web Services			
+CVE-2024-20353
+
+","
+Infinite loop
+The vulnerability allows a remote attacker to perform a denial of service (DoS) attack.The vulnerability exists due to infinite loop when parsing HTTP headers. A remote attacker can send specially crafted HTTP request to the appliance and perform a denial of service (DoS) attack.Note, the vulnerability is being actively exploited in the wild. ",2024-04-24,2024-04-22
+"
+
+			Arbitrary file download in CrushFTP			
+CVE-2024-4040
+
+","
+External Control of File Name or Path
+The vulnerability allows a remote user to delete arbitrary files.The vulnerability exists due to application allows to access files outside of the virtual file system. A remote authenticated user can read arbitrary system files. Note, the vulnerability is being exploited in the wild.  ",2024-04-22,2024-04-12
+"
+
+			Command Injection in Palo Alto PAN-OS			
+CVE-2024-3400
+
+","
+Command Injection
+The vulnerability allows a remote attacker to execute arbitrary commands on the target system.The vulnerability exists due to improper input validation in the GlobalProtect feature. A remote unauthenticated attacker can pass specially crafted data to the application and execute arbitrary commands on the target system.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system. Note, the vulnerability is being actively exploited in the wild. ",2024-04-12,2024-04-09
+"
+
+			Privilege escalation in Microsoft Windows proxy driver			
+CVE-2024-26234
+
+","
+Improper access control
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to improper access restrictions within the proxy driver. A local user can execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-04-09,2024-04-09
+"
+
+			SmartScreen prompt bypass in Microsoft Windows			
+CVE-2024-29988
+
+","
+Protection mechanism failure
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to insufficient implementation of the Mark of the Web (MotW) feature. A remote attacker can supply a malicious file inside an archive to bypass EDR/NDR detection, bypass the SmartScreen prompt and compromise the affected system.Note, the vulnerability is being actively exploited in the wild. ",2024-04-09,2024-04-02
+"
+
+			Multiple vulnerabilities in Google Pixel			
+CVE-2024-29748
+
+","
+Improper input validation
+The vulnerability allows a local application to execute arbitrary code.
+The vulnerability exists due to improper input validation within the Pixel Firmware subcomponent in Pixel. A local application can execute arbitrary code.Note, the vulnerability is being actively exploited in the wild. ",2024-04-02,2024-04-02
+"
+
+			Multiple vulnerabilities in Google Pixel			
+CVE-2024-29745
+
+","
+Information exposure
+The vulnerability allows a local application to gain access to sensitive information.
+The vulnerability exists due to improper input validation within the bootloader subcomponent in Pixel. A local application can gain access to sensitive information.Note, the vulnerability is being actively exploited in the wild. ",2024-04-02,2024-03-12
+"
+
+			Embedded malicious code in XZ Utils			
+CVE-2024-3094
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the application.The vulnerability exists due to presence of embedded malicious functionality in the application code (aka backdoor) that allows a remote attacker to gain unauthorized access to the system.Note, the vulnerability is being actively exploited in the wild. ",2024-04-01,2024-03-05
+"
+
+			Privilege escalation in Microsoft Windows Error Reporting Service			
+CVE-2024-26169
+
+","
+Permissions, Privileges, and Access Controls
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to application does not properly impose security restrictions in the Windows Error Reporting Service, which leads to security restrictions bypass and privilege escalation. ",2024-03-12,2024-03-05
+"
+
+			Multiple vulnerabilities in Apple iOS 17 and iPadOS 17			
+CVE-2024-23296
+
+","
+Buffer overflow
+The vulnerability allows a local application to execute arbitrary code on the target system.The vulnerability exists due to a boundary error in RTKit. A malicious application can trigger memory corruption and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-03-05,2024-02-13
+"
+
+			Multiple vulnerabilities in Apple iOS 16 and iPadOS 16			
+CVE-2024-23225
+
+","
+Buffer overflow
+The vulnerability allows a local application to execute arbitrary code on the target system.The vulnerability exists due to a boundary error within the OS kernel. A malicious application can trigger memory corruption and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild.  ",2024-03-05,2024-02-13
+"
+
+			Multiple vulnerabilities in Microsoft Windows Kernel			
+CVE-2024-21338
+
+","
+Buffer overflow
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a boundary error within the appid.sys AppLocker driver. A local user can trigger memory corruption and execute arbitrary code with elevated privileges. Note, the vulnerability is being actively exploited in the wild. ",2024-02-13,2024-02-13
+"
+
+			Multiple vulnerabilities in ConnectWise ScreenConnect			
+CVE-2024-1709
+
+","
+Authentication bypass using an alternate path or channel
+The vulnerability allows a remote attacker to bypass authentication.The vulnerability exists due to improper authentication. A remote non-authenticated attacker can bypass authentication process and gain full access to the system.Note, the vulnerability is being actively exploited in the wild. ",2024-02-13,2024-02-13
+"
+
+			Privilege escalation in Microsoft Exchange Server			
+CVE-2024-21410
+
+","
+Exposure of Resource to Wrong Sphere
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to an error in Microsoft Exchange Server. A remote attacker can target an NTLM client such as Outlook with an NTLM 
+credentials-leaking type vulnerability. The leaked credentials can then 
+be relayed against the Exchange server to gain privileges as the victim 
+client and to perform operations on the Exchange server on the victim's 
+behalf.Note, the vulnerability is being actively exploited in the wild. ",2024-02-13,2024-02-13
+"
+
+			Two OS command injection vulnerabilities in QNAP QTS and QuTS hero			
+CVE-2023-50358
+
+","
+OS Command Injection
+
+	The vulnerability allows a remote user to execute arbitrary shell commands on the target system.
+
+
+	The vulnerability exists due to improper input validation. A remote authenticated user can pass specially crafted data to the application and execute arbitrary OS commands on the target system.
+
+
+	Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.
+Note, the vulnerability is being actively exploited in the wild. ",2024-02-13,2024-02-13
+"
+
+			Security restrictions bypass when handling shortcuts in Microsoft Windows			
+CVE-2024-21412
+
+","
+Security features bypass
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The
+ vulnerability exists due to improper input validation when handling Internet shortcut files. A remote attacker can trick the victim into clicking on a specially crafted shortcut file and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. 		",2024-02-13,2024-02-09
+"
+
+			Security restrictions bypass in Microsoft Windows SmartScreen			
+CVE-2024-21351
+
+","
+Security features bypass
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to improper input validation when handling files downloaded from the Internet. A remote attacker can bypass the SmartScreen protection feature and trick the victim into launching a malicious files on the system.Note, the vulnerability is being actively exploited in the wild.  ",2024-02-13,2024-01-31
+"
+
+			Remote code execution in FortiOS SSL-VPN			
+CVE-2024-21762
+
+","
+Out-of-bounds write
+	The vulnerability allows a remote attacker to compromise vulnerable system.	The vulnerability exists due to a boundary error when processing HTTP requests in sslvpnd. A remote attacker can send specially crafted HTTP requests to the SSL-VPN service, trigger an out-of-bounds write and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-02-09,2024-01-30
+"
+
+			Multiple vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure gateways			
+CVE-2024-21893
+
+","
+Server-Side Request Forgery (SSRF)
+The disclosed vulnerability allows a remote attacker to perform SSRF attacks.The vulnerability exists due to insufficient validation of user-supplied input within the SAML component. A remote attacker can send a specially crafted HTTP request  and trick the application to initiate requests to arbitrary systems.Successful exploitation of this vulnerability may allow a remote attacker gain access to sensitive data, located in the local network or send malicious requests to other servers from the vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-01-31,2024-01-30
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-23842
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to usage of default administrative 
+credentials. A remote attacker can use default credentials to compromise
+ the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet.		",2024-01-30,2024-01-30
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-22772
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to usage of default administrative 
+credentials. A remote attacker can use default credentials to compromise
+ the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet.		",2024-01-30,2024-01-30
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-22771
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to usage of default administrative 
+credentials. A remote attacker can use default credentials to compromise
+ the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet.		",2024-01-30,2024-01-30
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-22770
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to usage of default administrative 
+credentials. A remote attacker can use default credentials to compromise
+ the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet.		",2024-01-30,2024-01-30
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-22769
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The
+ vulnerability exists due to usage of default administrative 
+credentials. A remote attacker can use default credentials to compromise
+ the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet.		",2024-01-30,2024-01-22
+"
+
+			Multiple vulnerabilities in Hitron Systems Security Camera DVRs			
+CVE-2024-22768
+
+","
+Use of default credentials
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to usage of default administrative credentials. A remote attacker can use default credentials to compromise the affected device.Note, the vulnerability is being actively exploited in the wild by the Mirai botnet. ",2024-01-30,2024-01-16
+"
+
+			Multiple vulnerabilities in Apple iOS 16 and iPadOS 16			
+CVE-2024-23222
+
+","
+Type confusion
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to a type confusion error when processing HTML content. A remote attacker can trick the victim to open a specially crafted website, trigger a type confusion error and execute arbitrary code on the target system.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2024-01-22,2024-01-16
+"
+
+			Multiple vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway			
+CVE-2023-6549
+
+","
+Buffer overflow
+The vulnerability allows a remote attacker to perform a denial of service (DoS) attack.The vulnerability exists due to a boundary error. A remote attacker can send specially crated packets to the system, trigger memory corruption and perform a denial of service (DoS) attack.Successful exploitation of this vulnerability requires that the device is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAAvirtualserver.Note, the vulnerability is being actively exploited in the wild. ",2024-01-16,2024-01-16
+"
+
+			Multiple vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway			
+CVE-2023-6548
+
+","
+Code Injection
+The vulnerability allows a remote user to execute arbitrary code on the target system.The vulnerability exists due to improper input validation within the management interface. A remote authenticated user can send a specially crafted request to the application and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2024-01-16,2024-01-31
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2024-0519
+
+","
+Buffer overflow
+The vulnerability allows a remote attacker to compromise the affected system.
+The vulnerability exists due to a boundary error in V8 in Google Chrome. A remote attacker can trick the victim to visit a specially crafted webpage, trigger a stack-based buffer overflow and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.
+",2024-01-16,2024-01-31
