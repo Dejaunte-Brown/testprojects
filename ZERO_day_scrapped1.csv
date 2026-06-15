@@ -1,0 +1,423 @@
+Titles,Description,Discovered,Patched
+"
+
+			Remote code execution in Oracle PeopleSoft Enterprise PeopleTools			
+CVE-2026-35273
+
+","
+Input validation error
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to insufficient validation of user-supplied input. A remote non-authenticated attacker can send a specially crafted HTTP request and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2026-06-11,2026-06-11
+"
+
+			Multiple vulnerabilities in Check Point Gaia			
+CVE-2026-50751
+
+","
+Improper authentication
+The vulnerability allows a remote attacker to bypass authentication process.The vulnerability exists due to a logic error in the Remote Access and Mobile Access certificate validation during deprecated IKEv1 key exchange. A remote attacker can establish a remote access VPN connection without a valid user password and gain access to network resources available to authenticated users.Note, the vulnerability is being actively exploited in the wild. ",2026-06-09,2026-06-09
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2026-1164
+
+","
+Buffer overflow
+The vulnerability allows a remote attacker to compromise the affected system.
+The vulnerability exists due to a boundary error in V8 engine in Google Chrome. A remote attacker can trick the victim to visit a specially crafted webpage, trigger a stack-based buffer overflow and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.
+",2026-06-09,2026-06-09
+"
+
+			Remote denial of service in SolarWinds Serv-U FTP Server			
+CVE-2026-28318
+
+","
+Improper handling of exceptional conditions
+The vulnerability allows a remote attacker to cause a denial of service.The vulnerability exists due to improper handling of deflate-encoded post requests in Serv-U service when handling HTTP POST requests with Content-Encoding: deflate. A remote attacker can send a specially crafted HTTP POST request to cause a denial of service.Note, the vulnerability is being exploited in the wild. ",2026-06-04,2026-06-04
+"
+
+			Privilege escalation in Cisco Catalyst SD-WAN Manager			
+CVE-2026-20245
+
+","
+Improper Encoding or Escaping of Output
+The vulnerability allows a local user to compromise the target system.
+
+The vulnerability exists due to insufficient validation of user-supplied input in the CLI. A local user can upload a specially crafted file and elevate privileges on the target system.Note, the vulnerability is being actively exploited in the wild.  ",2026-06-04,2026-06-01
+"
+
+			Multiple vulnerabilities in Google Android			
+CVE-2025-48595
+
+","
+Improper input validation
+The vulnerability allows a local application to escalate privileges on the device.
+The vulnerability exists due to improper input validation within the Framework component. A local application can execute arbitrary code.Note, the vulnerability is being actively exploited in the wild. ",2026-06-01,2026-05-25
+"
+
+			Use of hard-coded credentials in KnowledgeDeliver			
+CVE-2026-5426
+
+","
+Use of hard-coded credentials
+The vulnerability allows a remote attacker to execute arbitrary code.The vulnerability exists due to insecure use of hardcoded cryptographic keys in ASP.NET ViewState handling in the KnowledgeDeliver ASP.NET application configuration when processing a crafted __VIEWSTATE parameter in an HTTP request. A remote attacker can send a specially crafted ViewState payload to execute arbitrary code.The issue arises because identical pre-shared ASP.NET machine keys were used across multiple customer deployments, allowing compromise of other internet-facing instances if the keys were obtained from one deployment.Note, the vulnerability is being actively exploited in the wild.  ",2026-05-25,2026-05-21
+"
+
+			Privilege escalation in LiteSpeed User-End cPanel Plugin			
+CVE-2026-48172
+
+","
+Incorrect Privilege Assignment
+The vulnerability allows a remote user to compromise the affected system.The vulnerability exists due to incorrect privilege assignment. A remote authenticated cPanel user can abuse the lsws.redisAble function to execute arbitrary scripts as root.Note, the vulnerability is being actively exploited in the wild.  ",2026-05-21,2026-05-21
+"
+
+			Multiple vulnerabilities in Trend Micro Apex One			
+CVE-2026-34926
+
+","
+Relative Path Traversal
+The vulnerability allows a local privileged user to inject malicious code for deployment to agents.The vulnerability exists due to path traversal in the Apex One server when accessing server directories. A local privileged user can modify a key table on the server to inject malicious code for deployment to agents.This issue is only exploitable on on-premise Apex One installations.Note, the vulnerability is being actively exploited in the wild. ",2026-05-21,2026-05-19
+"
+
+			Embedded malicious code in 42 Tanstack packages			
+CVE-2026-45321
+
+","
+Embedded malicious code
+The vulnerability allows a remote attacker to disclose sensitive information and execute malicious code in the install environment.The vulnerability exists due to presence of malicious code in compromised applications in the vendor's repository. The incident occurred on May 11, 2026 between approximately 19:20 and 19:26 UTC. Attackers have published 84 malicious versions across 42 @tanstack/* packages to the npm registry. The malicious payload runs during npm, pnpm, or yarn installation, harvests cloud credentials, GitHub tokens, npm tokens, Kubernetes service-account tokens, Vault tokens, and SSH private keys, and exfiltrates the collected data over the Session/Oxen file-upload network. ",2026-05-19,2026-05-19
+"
+
+			Backdoor in Nx Console VSCode extension			
+CVE-2026-48027
+
+","
+Embedded malicious code
+The vulnerability allows a remote attacker to gain unauthorized access to the system.The vulnerability exists due to presence of malicious functionality in the application code (aka backdoor) that allows a remote attacker to gain unauthorized access to the application. The affected version was compromised on May 19, 2026 and was distributed through the Visual Studio Marketplace for around 18 minutes and around 36 minutes through OpenVSX.  ",2026-05-19,2026-05-19
+"
+
+			Denial of service in Microsoft Defender			
+CVE-2026-45498
+
+","
+Input validation error
+The vulnerability allows a remote attacker to perform a denial of service (DoS) attack.The vulnerability exists due to insufficient validation of user-supplied input. A remote attacker can pass a specially crafted file to the application and temporary disable antimalware protection. Note, the vulnerability is being actively exploited in the wild.  ",2026-05-19,2026-05-19
+"
+
+			Privilege escalation in Microsoft Malware Protection Engine			
+CVE-2026-41091
+
+","
+Link following
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to an insecure link following issue. A local user can create a specially crafted symbolic link to a critical file on the system and overwrite it with elevated privileges.Note, the vulnerability is being actively exploited in the wild.  ",2026-05-19,2026-05-14
+"
+
+			Spoofing attack via stored XSS in Microsoft Exchange Server OWA			
+CVE-2026-42897
+
+","
+Stored cross-site scripting
+The disclosed vulnerability allows a remote attacker to perform cross-site scripting (XSS) attacks.The vulnerability exists due to insufficient sanitization of user-supplied data in Outlook Web Access. A remote attacker can send a specially crafted email message and execute arbitrary JavaScript code in the victim's browser once the email is viewed. Note, the vulnerability is being actively exploited in the wild.  ",2026-05-14,2026-05-14
+"
+
+			Authentication bypass in Cisco Catalyst SD-WAN Controller			
+CVE-2026-20182
+
+","
+Improper authentication
+The vulnerability allows a remote attacker to bypass authentication and obtain administrative privileges.The vulnerability exists due to improper authentication in the peering authentication mechanism when handling control connection handshaking requests. A remote attacker can send crafted requests to bypass authentication and obtain administrative privileges.A successful exploit could allow access as an internal, high-privileged, non-root user account and subsequent access to NETCONF to manipulate SD-WAN fabric configuration.Note, the vulnerability is being actively exploited in the wild. ",2026-05-14,2026-05-07
+"
+
+			Multiple vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM)			
+CVE-2026-6973
+
+","
+Input validation error
+The vulnerability allows a remote user to execute arbitrary code.The vulnerability exists due to improper input validation in Ivanti Endpoint Manager Mobile (EPMM) when processing input. A remote privileged user can send crafted input to execute arbitrary code.Note, the vulnerability is being actively exploited in the wild. ",2026-05-07,2026-05-06
+"
+
+			Backdoor in DAEMON Tools software			
+
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the system.The vulnerability exists due to presence of embedded malicious functionality (aka backdoor) in the application's installer, downloaded from the official website. A remote attacker can compromise the affected system after installing the infected version of DAEMON Tools software.Note, the vendor's website was distributing infected version since April 8, 2026.  ",2026-05-06,2026-05-13
+"
+
+			Buffer overflow in User-ID Authentication Portal on Palo Alto PAN-OS			
+CVE-2026-0300
+
+","
+Out-of-bounds write
+	The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a boundary error within the User-ID Authentication Portal (aka Captive Portal) service. A remote attacker can send specially crafted packets to the device, trigger an out-of-bounds write and execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls.Note, the vulnerability is being actively exploited in the wild. ",2026-05-06,2026-05-05
+"
+
+			Security restrictions bypass in Arista EOS			
+CVE-2026-7473
+
+","
+Incomplete Comparison with Missing Factors
+The vulnerability allows a remote attacker to bypass intended tunnel protocol restrictions and forward unexpected tunneled traffic.The vulnerability exists due to incomplete comparison with missing factors in tunnel decapsulation processing in Arista EOS when handling tunneled packets addressed to a configured decapsulation IP. A remote attacker can send specially crafted tunneled packets using a non-configured tunnel protocol to bypass intended tunnel protocol restrictions and forward unexpected tunneled traffic.Exploitation requires the device to be configured as a tunnel endpoint with a decapsulation IP, such as for VXLAN, a GRE tunnel endpoint, or an ip decap-group.Note, the vulnerability is being exploited in the wild.  ",2026-05-05,2026-04-28
+"
+
+			Authentication bypass in cPanel & WHM			
+CVE-2026-41940
+
+","
+Improper authentication
+The vulnerability allows a remote attacker to bypass authentication process.The vulnerability exists due to an error in the authentication process. A remote non-authenticated attacker can bypass authentication process and gain unauthorized access to the application.Successful exploitation of the vulnerability may result in full system compromise. Note, the vulnerability is being actively exploited in the wild.  ",2026-04-28,2026-04-14
+"
+
+			Privilege escalation in Microsoft Defender			
+CVE-2026-33825
+
+","
+Insufficient Granularity of Access Control
+The vulnerability allows a local user to escalate privileges on the target system.
+The vulnerability exists due to insufficient granularity of access control in Microsoft Defender. A local user can gain elevated privileges on the system. ",2026-04-14,2026-04-14
+"
+
+			Spoofing attack in Microsoft Office SharePoint			
+CVE-2026-32201
+
+","
+Input validation error
+The vulnerability allows a remote attacker to perform a spoofing attack.The vulnerability exists due to insufficient validation of user-supplied input. A remote attacker can perform spoofing attack.Note, the vulnerability is being actively exploited in the wild. ",2026-04-14,2026-04-11
+"
+
+			Remote code execution in Adobe Acrobat and Reader			
+CVE-2026-34621
+
+","
+Prototype pollution
+The vulnerability allows a remote attacker to execute arbitrary JavaScript code.The vulnerability exists due to improper input validation when handling PDF files. A remote attacker can trick the victim into opening a specially crafted PDF file and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.  ",2026-04-11,2026-04-07
+"
+
+			Backdoor in Nextend Smart Slider 3 Pro plugin for WordPress			
+
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the application.The vulnerability exists due to presence of embedded malicious functionality in the application code (aka backdoor) that allows a remote attacker to gain unauthorized access to the application.Note, an unauthorized party gained access to Nextend update infrastructure on April 7 and distributed a fully attacker-authored build through the official 
+update channel. Only version 3.5.1.35 contained the backdoor code. ",2026-04-07,2026-04-04
+"
+
+			Authentication bypass and remote code execution in Fortinet FortiClientEMS			
+CVE-2026-35616
+
+","
+Missing authorization
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to missing authorization checks. A remote non-authenticated attacker can send a specially crafted HTTP request to certain API endpoint and execute arbitrary commands on the system.Note, the vulnerability is being actively exploited in the wild.  ",2026-04-04,2026-04-01
+"
+
+			Multiple vulnerabilities in Google Chrome			
+CVE-2026-5281
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a use-after-free error within the Dawn component in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger use-after-free error and execute arbitrary code on the target system.Successful exploitation of the vulnerability may allow an attacker to compromise vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2026-04-01,2026-03-31
+"
+
+			Download of code without integrity check in TrueConf client for Windows			
+CVE-2026-3502
+
+","
+Download of code without integrity check
+The vulnerability allows a remote attacker to compromise the affected systemThe vulnerability exists due to software does not perform software integrity check when downloading updates. A remote attacker controlling a TrueConf server can supply a malicious software binary and gain full control over the affected system after a successful software update.Note, the vulnerability is being exploited in the wild.  ",2026-03-31,2026-03-31
+"
+
+			Backdoor in Axios			
+
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the application.The vulnerability exists due to presence of embedded malicious functionality in the application code (aka backdoor) that allows a remote attacker to gain unauthorized access to the application. Attacker compromised axios repository and introduced a new dependency plain-crypto-js. ",2026-03-30,2026-03-23
+"
+
+			Backdoor in Aqua Security Trivy			
+CVE-2026-33634
+
+","
+Embedded malicious code (backdoor)
+The vulnerability allows a remote attacker to gain unauthorized access to the application.The vulnerability exists due to presence of embedded malicious functionality in the application code (aka backdoor) that allows a remote attacker to gain unauthorized access to the application.A threat actor used used compromised credentials to publish a malicious Trivy v0.69.4 
+release, force-push 76 of 77 version tags in `aquasecurity/trivy-action`
+ to credential-stealing malware, and replace all 7 tags in 
+`aquasecurity/setup-trivy` with malicious commits. The attacked occurred on March 19. ",2026-03-23,2026-03-19
+"
+
+			Missing authentication in Oracle Identity Manager and Oracle Web Services Manager			
+CVE-2026-21992
+
+","
+Missing Authentication for Critical Function
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to missing authentication within the REST WebServices component. A remote non-authenticated attacker can send a specially crafted request and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2026-03-19,2026-03-12
+"
+
+			Remote code execution in Google Chrome			
+CVE-2026-3910
+
+","
+Improperly implemented security check for standard
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to incorrect implementation in V8 in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it and compromise the system.Note, the vulnerability is being exploited in the wild. ",2026-03-12,2026-03-13
+"
+
+			Remote code execution in Google Chrome			
+CVE-2026-3909
+
+","
+Out-of-bounds write
+The vulnerability allows a remote attacker to compromise vulnerable system.
+The vulnerability exists due to a boundary error when processing untrusted HTML content in Skia. A remote attacker can create a specially crafted web page, trick the victim into opening it, trigger out-of-bounds write and execute arbitrary code on the target system.Note, the vulnerability is being exploited in the wild. ",2026-03-12,2026-03-03
+"
+
+			Multiple vulnerabilities in Google Android			
+CVE-2026-21385
+
+","
+Integer overflow
+The vulnerability allows a malicious application to escalate privileges on the system.
+The vulnerability exists due to improper input validation in Graphics. A local application can execute arbitrary code with elevated privileges.Note, the vulnerability is being actively exploited in the wild. ",2026-03-03,2026-02-25
+"
+
+			Authentication Bypass in Cisco Catalyst SD-WAN Controller			
+CVE-2026-20127
+
+","
+Improper authentication
+The vulnerability allows a remote attacker to bypass authentication process.The vulnerability exists due to an error in authentication mechanism. A remote non-authenticated attacker can send specially crafted requests to bypass authentication process and access NETCONF, which would then allow to manipulate network configuration for the SD-WAN fabric.Note, the vulnerability is being actively exploited in the wild.  ",2026-02-25,2026-02-17
+"
+
+			Use of hard-coded credentials in Dell RecoverPoint for Virtual Machines			
+CVE-2026-22769
+
+","
+Use of hard-coded credentials
+The vulnerability allows a remote attacker to gain full access to vulnerable system.The vulnerability exists due to presence of hard-coded credentials in application code. A remote unauthenticated attacker can access the affected system using the hard-coded credentials.Successful exploitation of this vulnerability may result in complete compromise of vulnerable system. Note, the vulnerability is being actively exploited in the wild. ",2026-02-17,2026-02-13
+"
+
+			Remote code execution in Google Chrome			
+CVE-2026-2441
+
+","
+Use-after-free
+The vulnerability allows a remote attacker to compromise vulnerable system.The vulnerability exists due to a use-after-free error within the CSS component in Google Chrome. A remote attacker can create a specially crafted web page, trick the victim into visiting it, trigger use-after-free error and execute arbitrary code on the target system.Successful exploitation of the vulnerability may allow an attacker to compromise vulnerable system.Note, the vulnerability is being actively exploited in the wild. ",2026-02-13,2026-02-11
+"
+
+			Multiple vulnerabilities in Apple macOS Tahoe			
+CVE-2026-20700
+
+","
+Buffer overflow
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a boundary error in dyld. A local user can trigger memory corruption and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild in conjunction with vulnerabilities #VU119833 (CVE-2025-14174) and #VU119902 (CVE-2025-43529).  ",2026-02-11,2026-02-10
+"
+
+			Privilege escalation in Microsoft Desktop Window Manager			
+CVE-2026-21519
+
+","
+Type Confusion
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to a type confusion error in Desktop Window Manager. A local user can trigger a type confusion error and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild.  ",2026-02-10,2026-02-10
+"
+
+			Local denial of service in Windows Remote Access Connection Manager			
+CVE-2026-21525
+
+","
+NULL pointer dereference
+The vulnerability allows a local user to perform a denial of service (DoS) attack.The vulnerability exists due to a NULL pointer dereference error in Windows Remote Access Connection Manager. A local user can perform a denial of service (DoS) attack.Note, the vulnerability is being exploited in the wild. ",2026-02-10,2026-02-10
+"
+
+			Privilege escalation in Microsoft Windows Remote Desktop			
+CVE-2026-21533
+
+","
+Improper privilege management
+The vulnerability allows a local user to escalate privileges on the system.The vulnerability exists due to improper privilege management in Windows Remote Desktop. A local user can execute arbitrary code with SYSTEM privileges.Note, the vulnerability is being actively exploited in the wild. ",2026-02-10,2026-02-10
+"
+
+			Remote code execution in Microsoft MSHTML Framework			
+CVE-2026-21513
+
+","
+Protection Mechanism Failure
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to insufficient implementation of security measures within the ieframe.dll component when handling hyperlinks. An attacker can trick the the victim into clicking on a specially crafted link or on a shortcut (.lnk) file and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.  ",2026-02-10,2026-02-10
+"
+
+			Security feature bypass vulnerability in Windows Shell			
+CVE-2026-21510
+
+","
+Protection Mechanism Failure
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to insufficient implementation of security measures. An attacker can trick the victim into clicking on a specially crafted URL or shortcut file to bypass Windows SmartScreen and Windows Shell security prompts and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2026-02-10,2026-02-10
+"
+
+			Security feature bypass vulnerability in Microsoft Word			
+CVE-2026-21514
+
+","
+Reliance on Untrusted Inputs in a Security Decision
+The vulnerability allows a remote attacker to bypass implemented security restrictions.The vulnerability exists due to insufficient mitigations for COM/OLE controls. A remote attacker can trick the victim into opening a specially crafted Word file, bypass implemented OLE mitigations and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild.  ",2026-02-10,2026-02-10
+"
+
+			SSL-VPN symlink persistence patch bypass in FortiOS			
+CVE-2025-68686
+
+","
+Information disclosure
+The vulnerability allows a remote user to gain access to potentially sensitive information.The vulnerability exists due to excessive data output by FortiOS SSL-VPN. A remote user can send a specially crafted HTTP request to bypass the patch developed for the symbolic link persistency mechanism and gain unauthorized access to sensitive information.Note, the vulnerability is being exploited in the wild in conjunction with other vulnerabilities that provide access at filesystem level. ",2026-02-10,2026-01-29
+"
+
+			Two remote code execution vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM)			
+CVE-2026-1340
+
+","
+Code Injection
+
+	The vulnerability allows a remote attacker to execute arbitrary code on the target system.
+
+
+	The vulnerability exists due to improper input validation. A remote non-authenticated attacker can send a specially crafted request to the application and execute arbitrary code on the target system.
+
+
+	Note, the vulnerability is being actively exploited in the wild. 
+ ",2026-01-29,2026-01-29
+"
+
+			Two remote code execution vulnerabilities in Ivanti Endpoint Manager Mobile (EPMM)			
+CVE-2026-1281
+
+","
+Code Injection
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to improper input validation. A remote non-authenticated attacker can send a specially crafted request to the application and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild.  ",2026-01-29,2026-01-26
+"
+
+			Remote code execution in Microsoft Office			
+CVE-2026-21509
+
+","
+Reliance on Untrusted Inputs in a Security Decision
+The vulnerability allows a remote attacker to compromise the affected system.The vulnerability exists due to improper insecure handling of OLE objects. A remote attacker can trick the victim into opening a specially crafted Office file and execute arbitrary code on the system.Note, the vulnerability is being actively exploited in the wild. ",2026-01-26,2026-01-27
+"
+
+			FortiCloud SSO login authentication bypass in Fortinet products			
+CVE-2026-24858
+
+","
+Improper verification of cryptographic signature
+The vulnerability allows a remote attacker to bypass SSO authentication.The
+ vulnerability exists due to improper verification of cryptographic 
+signature when handling SAML messages. A remote non-authenticated 
+attacker can bypass the FortiCloud SSO login authentication via a 
+crafted SAML message. Successful exploitation of the vulnerability
+ requires that the FortiCloud SSO feature is enabled on the 
+device. However, when an administrator registers the device to FortiCare
+ from 
+the device's GUI, unless the administrator disables the toggle switch 
+""Allow administrative login using FortiCloud SSO"" in the registration 
+page, FortiCloud SSO login is enabled upon registration. This vulnerability exists due to incomplete fix for #VU119694 (CVE-2025-59718) and #VU119696 (CVE-2025-59719).Note, the vulnerability is being actively exploited in the wild. ",2026-01-23,2026-01-21
+"
+
+			Unauthenticated remote code execution in Cisco Unified Communications products			
+CVE-2026-20045
+
+","
+Code Injection
+The vulnerability allows a remote attacker to execute arbitrary code on the target system.The vulnerability exists due to improper input validation when handling HTTP requests. A remote attacker can send a specially crafted HTTP request and execute arbitrary code on the target system.Note, the vulnerability is being actively exploited in the wild. ",2026-01-21,2026-01-13
